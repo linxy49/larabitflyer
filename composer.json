@@ -1,26 +1,19 @@
 {
-    "name": "linxy49/bitflyer",
-    "description": "bitflyer api for laravel5.5",
+    "name": "linxy49/larabitflyer",
+    "description": "bitflyer api for laravel",
     "type": "library",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "linxy49",
-            "email": "rin@busicall.co.jp"
-        }
-    ],
+    "authors": [{
+        "name": "linxy49",
+        "email": "linxycoin@gmail.com"
+    }],
+    "minimum-stability": "dev",
     "require": {
+        "guzzlehttp/guzzle": "^6.2"
     },
     "autoload": {
         "psr-4": {
-            "Linxy49\\Bitflyer\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Linxy49\\Bitflyer\\BitflyerServiceProvider"
-            ]
+            "Linxy49\\LaraBitflyer\\": "src/Linxy49/LaraBitflyer/"
         }
     }
 }
